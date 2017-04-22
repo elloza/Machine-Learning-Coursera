@@ -18,7 +18,16 @@ grad = zeros(size(theta));
 %               derivatives of the cost w.r.t. each parameter in theta
 
 
+H = sigmoid(X*theta);
 
+% We select al tetha values minus tetha0
+theta_minus_intercept = theta(2:size(theta));
+% For j = 0 regularization term is 0
+theta_reg = [0;theta_minus_intercept];
+
+J = ((1/m)*(-y'* log(H) - (1 - y)'* log(1-H))) + (lambda/(2*m))* sum(theta_reg.^2);
+
+grad = ((1/m)*X'*(H - y)) + (lambda/(m))* theta_reg;
 
 
 
