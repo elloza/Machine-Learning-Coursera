@@ -1,7 +1,7 @@
 # Machine-Learning-Coursera
 Assigments of the course Machine Learning Andrew NG
 
-##Interesting resources of Machine Learning
+## Interesting resources of Machine Learning
  * [Explained visually](http://setosa.io/ev/): Great visual explanations of algorithms and more.
  * [Machine learning Cheat Sheet](http://blogs.sas.com/content/subconsciousmusings/2017/04/12/machine-learning-algorithm-use/)
  * [10 Free Books of Machine Learning](http://blog.paralleldots.com/technology/machine-learning/list-of-free-must-read-books-for-machine-learning/)
